@@ -1,1 +1,6 @@
 # Final-Project
+To do this project I had to learn the basics of object oriented programming in Python, such as how classes, inheritance, and constructors work. While I didn't complete the parts requiring it, I also learned about abstract syntax trees. My general plan was to build a lexer to take in a proof from the user and turn it into a list of tokens such that I could then build a parser to generate an AST reflecting the structure of the proof as classes of variables, binary and unary operations, axioms, formulae, and the conclusion. After this, I was going to brute force check whether or not the proof was valid. That is, given the axioms of the proof, generate a complete list of possible permutations through valid sentential logic manipulations and check whether any of these is identical to the following line in the proof. If so, then that step is valid; if not, then it is invalid. Following this process through to the conclusion, with valid steps all the way, would return that the proof is valid.
+
+# Citation
+I used the first two videos of the following series to build the Lexer and a portion of the Parser:
+https://www.youtube.com/watch?v=Eythq9848Fg&list=PLZQftyCk7_SdoVexSmwy_tBgs7P0b97yD
